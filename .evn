@@ -1,0 +1,19 @@
+# Test environment configuration
+BOT_TOKEN=123456:ABC-DEF1234ghikl-zyx57W2v1u123ew11
+CHANNEL_ID=@test_channel
+ADMIN_IDS=123456789
+
+DATABASE_URL=sqlite+aiosqlite:///database/test_bot.db
+REDIS_URL=redis://localhost:6379/0
+USE_REDIS=false
+
+BACKUP_INTERVAL_HOURS=24
+BACKUP_RETENTION_DAYS=7
+
+RATE_LIMIT_REQUESTS=30
+RATE_LIMIT_PERIOD_SECONDS=60
+
+LOG_LEVEL=DEBUG
+LOG_FILE=logs/test_bot.log
+
+MAINTENANCE_MODE=false
